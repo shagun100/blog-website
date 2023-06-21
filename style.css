@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    transition: all.5s linear;
+}
+.top-wrapper{
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: white;
+    height: 62px;
+    background-image: url('../');
+    
+}
+.logo-container{
+    padding: 5px 0;
+    display: flex;
+}
+.logo-nft{
+    height: 78px;
+    width: 150px;;
+}
+.menu-bar{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    display: inline;
+}
+.menu-items{
+    display: inline;
+    padding: 20px;
+    font-size: 0.5;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.sub-menu{
+    padding: 10px;
+    display: none;
+    display: inline;
+    
+}
+.content-section{
+    background-image: url('./images/pexels-karolina-grabowska-4996868.jpg');
+    background-size: 100vw 90vh;
+    background-repeat: no-repeat;
+    /*position: fixed;*/
+
+
+}
+.content-wrapper{
+    padding: 99px;
+    height: 64vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.blog{
+    padding-top: 20px;
+    width: 49%;
+}
+.blog h1{
+font-weight: bold;
+font-size: 60px;
+font-family: 'Times New Roman', Times, serif;
+}
+.blog p{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+margin-bottom: 10px;
+padding-top: 10px;
+font-size: 29px;
+}
+.blog h3 i{
+    padding-top: 0;
+    color: black;
+    font-size: 40px;
+    color: rgb(6, 52, 6);
+    line-height: 50px;
+}
+.Read-blog{
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(45deg, #6f5d8d,#dd7e9e);
+    line-height: 10px;
+}
+.Read-blog:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-image: linear-gradient(to right, #5cb0b4, #bedcdd);
+}
+.Service-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-image: url('./images/pexels-fauxels-3184465.jpg');*/
+    background-size: 105vw 105vh;
+    background-repeat: no-repeat;
+    height: 87vh;
+    padding-left: 25%;
+    background-color: rgb(238, 234, 234);
+    margin-bottom: 8px;
+}
+.service-text{
+    padding: 50px 20px;
+}
+.service-text h1{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+.service-text p{
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+#designer-text{
+    padding: 10px 5px;
+    color: rgb(1, 46, 1);
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    line-height: 50px;
+}
+.marketing{
+    padding: 30px 0 0 0 ;
+    background-color: #c8c7d7;
+    height: 86vh;
+}
+.header{
+    padding: 10px 40px;
+    color: #a42009dd;
+    font-family: 'Caveat', cursive;
+    font-size: 47px;
+}
+.text-image-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-text-section, .right-text-section{
+    width: 30%;
+    padding: 0 20px 0 80px;
+}
+.left-text-section{
+    padding-bottom: 70px 0 0 ;
+}
+.right-text-section{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding: 0 20px 0 0;
+    
+
+}
+.image-section img{
+    height: 300px;
+    width: 390px;
+    padding:0 5px 0 5px;
+}
+.left-text-section h1 ,p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-text-section p{
+    line-height: 40px;
+    font-size: 20px;
+
+}
+.left-text-section h1{
+    padding: 5px 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right-text-section h1,p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-text-section p{
+    line-height: 40px;
+    font-size: 20px;
+}
+.right-text-section h1{
+    padding: 0 5px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.thehustle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-image: url('./images/pexels-fauxels-3184465.jpg');*/
+    background-size: 105vw 105vh;
+    background-repeat: no-repeat;
+    height: 87vh;
+    background-color: #c4bdac;
+    margin-bottom: 8px;
+    padding-left: 5%;
+    margin-top: 8px;
+}
+.thehustle-text{
+    padding: 10px 20px;
+}
+.thehustle-text h1{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+.thehustle-text p{
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+#designer-text1{
+    padding: 10px 5px;
+    color: rgb(1, 46, 1);
+    font-family: 'Khand', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+.card-page{
+    background: url('./images/pexels-free-nature-stock-1564280.jpg');
+    margin-bottom: 10px;
+ }
+ .page-header-text{
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     padding: 50px 0px;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .page-header-text h1{
+     position: relative;
+ }
+ 
+ .page-header-text h1::after{
+     content: " ";
+     background-color: #fff;
+     height: 2px;
+     width: 100px;
+     left: 45%;
+     position: absolute;
+     margin-top: 100px;
+ }
+ 
+ .card-container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .flip-card {
+     background-color: transparent;
+     width: 30%;
+     height: 300px;
+     margin: 20px;
+   }
+   
+   .flip-card-inner {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     transition: transform 0.6s;
+     transform-style: preserve-3d;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   }
+   
+   .flip-card:hover .flip-card-inner {
+     transform: rotateY(180deg);
+   }
+   
+   .flip-card-front, .flip-card-back {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+   }
+   
+   .flip-card-front {
+     background-color: #bbb;
+     color: black;
+   }
+   
+   .flip-card-front img{
+     height: 100%;
+     width: 100%;
+   }
+   .flip-card-back {
+     background-color: black;
+     color: white;
+     transform: rotateY(180deg);
+   }
+   .footer {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    text-align: center;
+    height: 20vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .form-text{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #046daa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #fdeae5;
+    padding: 20px;
+  }
+  
